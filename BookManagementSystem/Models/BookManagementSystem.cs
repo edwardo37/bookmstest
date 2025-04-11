@@ -29,11 +29,26 @@ namespace BookManagementSystem.Models
             Console.Write("Enter the genre of the book: ");
             newBook.Genre = Console.ReadLine();
 
-            Console.Write("Enter the ID of the book: ");
-            newBook.ID = int.Parse(Console.ReadLine());
+            // Continue until a unique ID is entered
+            while (true)
+            {
+                Console.Write("Enter the ID of the book: ");
+                int proposedID = int.Parse(Console.ReadLine());
 
-            // Add the book to the dictionary
-            Books.Add(newBook.ID, newBook);
+                // Check if the ID already exists
+                if (Books.ContainsKey(proposedID))
+                {
+                    Console.WriteLine("This ID already exists. Please enter a unique ID.");
+                    continue;
+                }
+
+                // ID is unique, so we can add the book
+                else
+                {
+                    newBook.ID = proposedID;
+                    Books.Add(proposedID, newBook);
+                }
+            }
         }
 
         public void GetBooks()
