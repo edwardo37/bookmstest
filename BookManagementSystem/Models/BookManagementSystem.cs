@@ -62,6 +62,7 @@ namespace BookManagementSystem.Models
                 Console.WriteLine($"Author: {book.Author}");
                 Console.WriteLine($"Genre: {book.Genre}");
                 Console.WriteLine($"ID: {book.ID}");
+                Console.WriteLine("===================================");
             }
         }
 
