@@ -4,4 +4,4 @@ BMS bms = new BMS();
 
 // bms.AddBook();
 bms.GetBooks();
-bms.GetBookByID();
+bms.RemoveBookByID();
