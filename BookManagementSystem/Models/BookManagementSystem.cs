@@ -1,5 +1,9 @@
 namespace BookManagementSystem.Models
 {
+    /// <summary>
+    /// The Book Management System,
+    /// Contains a dictionary of books and methods to manage them.
+    /// </summary>
     public class BMS
     {
         // This is a dictionary because lookups are easier with IDs.
@@ -17,6 +21,9 @@ namespace BookManagementSystem.Models
             };
         }
 
+        /// <summary>
+        /// Add a book to the system from user input.
+        /// </summary>
         public void AddBook()
         {
             Book newBook = new Book();
@@ -54,6 +61,9 @@ namespace BookManagementSystem.Models
             }
         }
 
+        /// <summary>
+        /// Print a list of all books in the system.
+        /// </summary>
         public void GetBooks()
         {
             foreach (Book book in Books.Values)
@@ -66,6 +76,9 @@ namespace BookManagementSystem.Models
             }
         }
 
+        /// <summary>
+        /// Get a book by its ID from user input.
+        /// </summary>
         public void GetBookByID()
         {
             Console.Write("Enter the ID of the book to search for: ");
@@ -86,6 +99,9 @@ namespace BookManagementSystem.Models
             }
         }
 
+        /// <summary>
+        /// Remove a book by its ID from user input.
+        /// </summary>
         public void RemoveBookByID()
         {
             Console.Write("Enter the ID of the book to remove: ");
