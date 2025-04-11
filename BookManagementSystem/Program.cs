@@ -2,5 +2,6 @@
 
 BMS bms = new BMS();
 
-bms.AddBook();
+// bms.AddBook();
 bms.GetBooks();
+bms.GetBookByID();

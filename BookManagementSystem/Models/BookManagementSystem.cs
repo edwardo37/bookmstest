@@ -12,6 +12,8 @@ namespace BookManagementSystem.Models
             // REMOVE WHEN FINISHED, FOR TESTING PURPOSES
             {
                 {1, new Book { Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 1 } },
+                {2, new Book { Title = "TLOTR", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 2 } },
+                {3, new Book { Title = "1984", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 3 } },
             };
         }
 
@@ -59,6 +61,26 @@ namespace BookManagementSystem.Models
                 Console.WriteLine($"Author: {book.Author}");
                 Console.WriteLine($"Genre: {book.Genre}");
                 Console.WriteLine($"ID: {book.ID}");
+            }
+        }
+
+        public void GetBookByID()
+        {
+            Console.Write("Enter the ID of the book to search for: ");
+            int id = int.Parse(Console.ReadLine());
+
+            if (Books.ContainsKey(id))
+            {
+                Book book = Books[id];
+
+                Console.WriteLine($"Title: {book.Title}");
+                Console.WriteLine($"Author: {book.Author}");
+                Console.WriteLine($"Genre: {book.Genre}");
+                Console.WriteLine($"ID: {book.ID}");
+            }
+            else
+            {
+                Console.WriteLine("Book not found.");
             }
         }
     }
