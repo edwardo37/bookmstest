@@ -12,13 +12,7 @@ namespace BookManagementSystem.Models
         public BMS()
         {
             // Initialize the dictionary
-            Books = new Dictionary<int, Book>
-            // REMOVE WHEN FINISHED, FOR TESTING PURPOSES
-            {
-                {1, new Book { Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 1 } },
-                {2, new Book { Title = "TLOTR", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 2 } },
-                {3, new Book { Title = "1984", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 3 } },
-            };
+            Books = new Dictionary<int, Book>();
         }
 
         /// <summary>
