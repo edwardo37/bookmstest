@@ -1,0 +1,50 @@
+namespace BookManagementSystem.Models
+{
+    public class BMS
+    {
+        // This is a dictionary because lookups are easier with IDs.
+        private Dictionary<int, Book> Books { get; set; }
+
+        public BMS()
+        {
+            // Initialize the dictionary
+            Books = new Dictionary<int, Book>
+            // REMOVE WHEN FINISHED, FOR TESTING PURPOSES
+            {
+                {1, new Book { Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Genre = "Fiction", ID = 1 } },
+            };
+        }
+
+        public void AddBook()
+        {
+            Book newBook = new Book();
+
+            // Enter in all the data
+            Console.Write("Enter the title of the book: ");
+            newBook.Title = Console.ReadLine();
+
+            Console.Write("Enter the author of the book: ");
+            newBook.Author = Console.ReadLine();
+
+            Console.Write("Enter the genre of the book: ");
+            newBook.Genre = Console.ReadLine();
+
+            Console.Write("Enter the ID of the book: ");
+            newBook.ID = int.Parse(Console.ReadLine());
+
+            // Add the book to the dictionary
+            Books.Add(newBook.ID, newBook);
+        }
+
+        public void GetBooks()
+        {
+            foreach (Book book in Books.Values)
+            {
+                Console.WriteLine($"Title: {book.Title}");
+                Console.WriteLine($"Author: {book.Author}");
+                Console.WriteLine($"Genre: {book.Genre}");
+                Console.WriteLine($"ID: {book.ID}");
+            }
+        }
+    }
+}

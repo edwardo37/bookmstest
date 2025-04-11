@@ -1,0 +1,14 @@
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\bin\Debug\net8.0\BookManagementSystem.exe
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\bin\Debug\net8.0\BookManagementSystem.deps.json
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\bin\Debug\net8.0\BookManagementSystem.runtimeconfig.json
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\bin\Debug\net8.0\BookManagementSystem.dll
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\bin\Debug\net8.0\BookManagementSystem.pdb
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.AssemblyInfo.cs
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.dll
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\refint\BookManagementSystem.dll
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.pdb
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.genruntimeconfig.cache
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\ref\BookManagementSystem.dll
