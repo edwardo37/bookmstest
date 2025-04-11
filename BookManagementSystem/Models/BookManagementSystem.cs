@@ -49,6 +49,7 @@ namespace BookManagementSystem.Models
                 {
                     newBook.ID = proposedID;
                     Books.Add(proposedID, newBook);
+                    break;
                 }
             }
         }
