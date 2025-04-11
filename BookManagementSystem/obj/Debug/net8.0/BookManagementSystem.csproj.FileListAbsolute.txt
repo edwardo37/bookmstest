@@ -12,3 +12,4 @@ C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem
 C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.pdb
 C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.genruntimeconfig.cache
 C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\ref\BookManagementSystem.dll
+C:\Users\Cameron\Documents\code\CIS_106_projects\bookmstest\BookManagementSystem\obj\Debug\net8.0\BookManagementSystem.sourcelink.json
